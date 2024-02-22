@@ -41,7 +41,7 @@ class DocumentLoader(object):
     supported_extentions = {
         ".pdf": PyPDFLoader,
         ".txt": TextLoader,
-        # ".epub": EpubReader,
+        ".epub": EpubReader,
         ".docx": UnstructuredWordDocumentLoader,
         ".doc": UnstructuredWordDocumentLoader
     }
